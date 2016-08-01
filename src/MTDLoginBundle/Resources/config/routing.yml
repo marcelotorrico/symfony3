@@ -1,0 +1,23 @@
+mtd_login_homepage:
+    path:     /
+    defaults: { _controller: MTDLoginBundle:Default:index }
+    
+mtd_formulario_registro:
+    path:     /formulario
+    defaults: {_controller: MTDLoginBundle:RegistroUsuario:mostrarFormulario }
+    
+mtd_registro_usuario:
+    path:     /registroUsuario
+    defaults: {_controller: MTDLoginBundle:RegistroUsuario:registrar }
+    
+mtd_formulario_ingreso:
+    path:     /formulario/ingreso
+    defaults: {_controller: MTDLoginBundle:Login:mostrarFormulario }
+    
+mtd_validacion_login:
+    path:     /validacion/login
+    defaults: {_controller: MTDLoginBundle:Login:validarFormulario }
+    
+mtd_inicio:
+    path:     /inicio
+    defaults: {_controller: MTDLoginBundle:Login:inicio }

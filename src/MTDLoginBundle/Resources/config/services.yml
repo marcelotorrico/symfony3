@@ -1,0 +1,4 @@
+services:
+#    mtd_login.example:
+#        class: MTDLoginBundle\Example
+#        arguments: [@service_id, "plain_value", %parameter%]

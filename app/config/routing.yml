@@ -1,0 +1,11 @@
+mtd_login:
+    resource: "@MTDLoginBundle/Resources/config/routing.yml"
+    prefix:   /
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
+    
+login:
+    path:     /login
+    defaults: { _controller: MTDLoginBundle:Login:login }
